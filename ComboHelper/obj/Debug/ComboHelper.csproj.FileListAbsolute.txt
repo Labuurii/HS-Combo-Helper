@@ -1,0 +1,10 @@
+C:\Users\Adminiator.Jerrpan-W7\Documents\Projects\botkitty\plugins\ComboHelper\ComboHelper\bin\Debug\ComboHelper.dll.config
+C:\Users\Adminiator.Jerrpan-W7\Documents\Projects\botkitty\plugins\ComboHelper\ComboHelper\bin\Debug\ComboHelper.dll
+C:\Users\Adminiator.Jerrpan-W7\Documents\Projects\botkitty\plugins\ComboHelper\ComboHelper\bin\Debug\ComboHelper.pdb
+C:\Users\Adminiator.Jerrpan-W7\Documents\Projects\botkitty\plugins\ComboHelper\ComboHelper\obj\Debug\ComboHelper.GUI.BotKittyMenu.resources
+C:\Users\Adminiator.Jerrpan-W7\Documents\Projects\botkitty\plugins\ComboHelper\ComboHelper\obj\Debug\ComboHelper.GUI.CardSearch.resources
+C:\Users\Adminiator.Jerrpan-W7\Documents\Projects\botkitty\plugins\ComboHelper\ComboHelper\obj\Debug\ComboHelper.GUI.CombosWindow.resources
+C:\Users\Adminiator.Jerrpan-W7\Documents\Projects\botkitty\plugins\ComboHelper\ComboHelper\obj\Debug\ComboHelper.GUI.Overlay.resources
+C:\Users\Adminiator.Jerrpan-W7\Documents\Projects\botkitty\plugins\ComboHelper\ComboHelper\obj\Debug\ComboHelper.csproj.GenerateResource.Cache
+C:\Users\Adminiator.Jerrpan-W7\Documents\Projects\botkitty\plugins\ComboHelper\ComboHelper\obj\Debug\ComboHelper.dll
+C:\Users\Adminiator.Jerrpan-W7\Documents\Projects\botkitty\plugins\ComboHelper\ComboHelper\obj\Debug\ComboHelper.pdb

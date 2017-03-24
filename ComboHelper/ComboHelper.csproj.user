@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Program Files %28x86%29\BotKitty\BotKitty.exe</StartProgram>
+    <StartArguments>-run "HS Combo Helper"</StartArguments>
+    <StartWorkingDirectory>C:\Users\Adminiator.Jerrpan-W7\Documents\Projects\botkitty\botkitty\BotKitty\bin\Debug</StartWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Users\Adminiator.Jerrpan-W7\Documents\Projects\botkitty\botkitty\BotKitty\bin\Release\BotKitty.exe</StartProgram>
+    <StartArguments>-run "HS Combo Helper"</StartArguments>
+    <StartWorkingDirectory>C:\Users\Adminiator.Jerrpan-W7\Documents\Projects\botkitty\botkitty\BotKitty\bin\Release</StartWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectView>ProjectFiles</ProjectView>
+  </PropertyGroup>
+</Project>
