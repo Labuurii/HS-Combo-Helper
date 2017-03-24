@@ -51,8 +51,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.deckCB = new System.Windows.Forms.ComboBox();
-            this.deckIndexLbl = new System.Windows.Forms.Label();
-            this.deckIndexText = new System.Windows.Forms.TextBox();
             this.combosMenu.SuspendLayout();
             this.cardsMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.cardImg)).BeginInit();
@@ -250,32 +248,11 @@
             this.deckCB.TabIndex = 14;
             this.deckCB.SelectedIndexChanged += new System.EventHandler(this.currentDeckCB_SelectedIndexChanged);
             // 
-            // deckIndexLbl
-            // 
-            this.deckIndexLbl.AutoSize = true;
-            this.deckIndexLbl.Location = new System.Drawing.Point(229, 48);
-            this.deckIndexLbl.Name = "deckIndexLbl";
-            this.deckIndexLbl.Size = new System.Drawing.Size(62, 13);
-            this.deckIndexLbl.TabIndex = 15;
-            this.deckIndexLbl.Text = "Deck Index";
-            this.deckIndexLbl.Visible = false;
-            // 
-            // deckIndexText
-            // 
-            this.deckIndexText.Location = new System.Drawing.Point(297, 45);
-            this.deckIndexText.Name = "deckIndexText";
-            this.deckIndexText.Size = new System.Drawing.Size(100, 20);
-            this.deckIndexText.TabIndex = 16;
-            this.deckIndexText.Visible = false;
-            this.deckIndexText.TextChanged += new System.EventHandler(this.deckIndexText_TextChanged);
-            // 
             // CombosWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(554, 355);
-            this.Controls.Add(this.deckIndexText);
-            this.Controls.Add(this.deckIndexLbl);
             this.Controls.Add(this.deckCB);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -327,7 +304,5 @@
         private System.Windows.Forms.ComboBox deckCB;
         private System.Windows.Forms.ToolStripMenuItem addComboBtn;
         private System.Windows.Forms.ToolStripMenuItem addToolStripMenuItem;
-        private System.Windows.Forms.Label deckIndexLbl;
-        private System.Windows.Forms.TextBox deckIndexText;
     }
 }

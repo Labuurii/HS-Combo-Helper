@@ -181,9 +181,6 @@ namespace ComboHelper.GUI
             var deck = get_deck(selected_index);
             comboLbl.Visible = true;
             combosList.Visible = true;
-            deckIndexLbl.Visible = true;
-            deckIndexText.Visible = true;
-            deckIndexText.Text = deck.DeckIndex.ToString();
 
             combosList.Clear();
             if(deck.Combos != null)
@@ -382,19 +379,6 @@ namespace ComboHelper.GUI
         private void addToolStripMenuItem_Click(object sender, EventArgs e)
         {
             card_search.ShowDialog();
-        }
-
-        private void deckIndexText_TextChanged(object sender, EventArgs e)
-        {
-            var deck = get_current_deck();
-            if (deck == null)
-                return;
-
-            int deck_index;
-            if(int.TryParse(deckIndexText.Text, out deck_index))
-            {
-                deck.DeckIndex = deck_index;
-            }
         }
     }
 

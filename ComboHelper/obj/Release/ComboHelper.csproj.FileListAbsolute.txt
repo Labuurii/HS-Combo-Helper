@@ -8,3 +8,4 @@ C:\Users\Adminiator.Jerrpan-W7\Documents\Projects\botkitty\plugins\ComboHelper\C
 C:\Users\Adminiator.Jerrpan-W7\Documents\Projects\botkitty\plugins\ComboHelper\ComboHelper\obj\Release\ComboHelper.csproj.GenerateResource.Cache
 C:\Users\Adminiator.Jerrpan-W7\Documents\Projects\botkitty\plugins\ComboHelper\ComboHelper\obj\Release\ComboHelper.dll
 C:\Users\Adminiator.Jerrpan-W7\Documents\Projects\botkitty\plugins\ComboHelper\ComboHelper\obj\Release\ComboHelper.pdb
+C:\Users\Adminiator.Jerrpan-W7\Documents\Projects\botkitty\plugins\ComboHelper\ComboHelper\obj\Release\ComboHelper.csprojResolveAssemblyReference.cache
