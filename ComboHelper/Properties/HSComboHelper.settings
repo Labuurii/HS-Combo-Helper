@@ -1,8 +1,11 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ComboHelper" GeneratedClassName="HSComboHelper">
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ComboHelper.Properties" GeneratedClassName="HSComboHelper">
   <Profiles />
   <Settings>
     <Setting Name="decks" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="selected_deck" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
   </Settings>

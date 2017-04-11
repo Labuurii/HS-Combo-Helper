@@ -8,9 +8,10 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
     <StartAction>Program</StartAction>
-    <StartProgram>C:\Users\Adminiator.Jerrpan-W7\Documents\Projects\botkitty\botkitty\BotKitty\bin\Release\BotKitty.exe</StartProgram>
+    <StartProgram>C:\Program Files %28x86%29\BotKitty\BotKitty.exe</StartProgram>
     <StartArguments>-run "HS Combo Helper"</StartArguments>
-    <StartWorkingDirectory>C:\Users\Adminiator.Jerrpan-W7\Documents\Projects\botkitty\botkitty\BotKitty\bin\Release</StartWorkingDirectory>
+    <StartWorkingDirectory>
+    </StartWorkingDirectory>
   </PropertyGroup>
   <PropertyGroup>
     <ProjectView>ProjectFiles</ProjectView>

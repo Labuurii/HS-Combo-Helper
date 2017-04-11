@@ -40,8 +40,6 @@ namespace ComboHelper
 
     public class BotRunner : BotPlugin.BotRunner
     {
-        BotKittyMenu menu;
-
         public override string GetName()
         {
             return "HS Combo Helper";
@@ -64,38 +62,16 @@ namespace ComboHelper
 
         public override void SetupSettingsGUI(IAPI iapi, Panel botPanel)
         {
-            if(menu == null)
-            {
-                List<DeckItem> decks = null;
-                try
-                {
-
-                    var ser_str = Properties.HSComboHelper.Default.decks;
-                    var bytes = Convert.FromBase64String(ser_str);
-                    using (MemoryStream ms = new MemoryStream(bytes))
-                    {
-                        BinaryFormatter bf = new BinaryFormatter();
-                        bf.Binder = new AllowAllAssemblyVersionsDeserializationBinder();
-                        var obj = bf.Deserialize(ms);
-                        decks = (List<DeckItem>)obj;
-                    }
-                }
-                catch { }
-
-                if (decks == null)
-                    decks = new List<DeckItem>();
-
-                var api = (IDesktopAPI)iapi;
-                menu = new BotKittyMenu(api, decks);
-            }
+            List<DeckItem> decks = ComboStore.Load();
+            var api = (IDesktopAPI)iapi;
+            var menu = new BotKittyMenu(api, decks);
             botPanel.Controls.Add(menu);
         }
 
         public override void OnStart(IAPI iapi)
         {
-            Debug.Assert(menu != null);
-
-            var selected_deck = menu.SelectedDeck;
+            var decks = ComboStore.Load();
+            var selected_deck = ComboStore.SelectedDeck(decks);
             if (selected_deck == null)
                 throw new Exception("You need to specify the deck you are using");            
             var api = (IDesktopAPI)iapi;

@@ -9,3 +9,14 @@ C:\Users\Adminiator.Jerrpan-W7\Documents\Projects\botkitty\plugins\ComboHelper\C
 C:\Users\Adminiator.Jerrpan-W7\Documents\Projects\botkitty\plugins\ComboHelper\ComboHelper\obj\Release\ComboHelper.dll
 C:\Users\Adminiator.Jerrpan-W7\Documents\Projects\botkitty\plugins\ComboHelper\ComboHelper\obj\Release\ComboHelper.pdb
 C:\Users\Adminiator.Jerrpan-W7\Documents\Projects\botkitty\plugins\ComboHelper\ComboHelper\obj\Release\ComboHelper.csprojResolveAssemblyReference.cache
+C:\Users\Adminiator.Jerrpan-W7\Documents\Projects\botkitty\botkitty\plugins\ComboHelper\ComboHelper\bin\Release\ComboHelper.dll.config
+C:\Users\Adminiator.Jerrpan-W7\Documents\Projects\botkitty\botkitty\plugins\ComboHelper\ComboHelper\bin\Release\ComboHelper.dll
+C:\Users\Adminiator.Jerrpan-W7\Documents\Projects\botkitty\botkitty\plugins\ComboHelper\ComboHelper\bin\Release\ComboHelper.pdb
+C:\Users\Adminiator.Jerrpan-W7\Documents\Projects\botkitty\botkitty\plugins\ComboHelper\ComboHelper\obj\Release\ComboHelper.csprojResolveAssemblyReference.cache
+C:\Users\Adminiator.Jerrpan-W7\Documents\Projects\botkitty\botkitty\plugins\ComboHelper\ComboHelper\obj\Release\ComboHelper.GUI.BotKittyMenu.resources
+C:\Users\Adminiator.Jerrpan-W7\Documents\Projects\botkitty\botkitty\plugins\ComboHelper\ComboHelper\obj\Release\ComboHelper.GUI.CardSearch.resources
+C:\Users\Adminiator.Jerrpan-W7\Documents\Projects\botkitty\botkitty\plugins\ComboHelper\ComboHelper\obj\Release\ComboHelper.GUI.CombosWindow.resources
+C:\Users\Adminiator.Jerrpan-W7\Documents\Projects\botkitty\botkitty\plugins\ComboHelper\ComboHelper\obj\Release\ComboHelper.GUI.Overlay.resources
+C:\Users\Adminiator.Jerrpan-W7\Documents\Projects\botkitty\botkitty\plugins\ComboHelper\ComboHelper\obj\Release\ComboHelper.csproj.GenerateResource.Cache
+C:\Users\Adminiator.Jerrpan-W7\Documents\Projects\botkitty\botkitty\plugins\ComboHelper\ComboHelper\obj\Release\ComboHelper.dll
+C:\Users\Adminiator.Jerrpan-W7\Documents\Projects\botkitty\botkitty\plugins\ComboHelper\ComboHelper\obj\Release\ComboHelper.pdb

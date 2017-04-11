@@ -291,17 +291,7 @@ namespace ComboHelper.GUI
             try
             {
                 sync_combo_names();
-
-                using (MemoryStream ms = new MemoryStream())
-                {
-                    BinaryFormatter bf = new BinaryFormatter();
-                    bf.Serialize(ms, decks);
-                    ms.Position = 0;
-                    byte[] buffer = new byte[(int)ms.Length];
-                    ms.Read(buffer, 0, buffer.Length);
-                    Properties.HSComboHelper.Default.decks = Convert.ToBase64String(buffer);
-                    Properties.HSComboHelper.Default.Save();
-                }
+                ComboStore.Save(decks);
             }
             catch(Exception)
             {

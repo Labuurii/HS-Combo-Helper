@@ -17,26 +17,6 @@ namespace ComboHelper.GUI
         IDesktopAPI api;
         List<DeckItem> decks;
 
-        private readonly object selected_deck_mutex = new object();
-        DeckItem selected_deck;
-        internal DeckItem SelectedDeck
-        {
-            get
-            {
-                lock(selected_deck_mutex)
-                {
-                    return selected_deck;
-                }
-            }
-            private set
-            {
-                lock(selected_deck_mutex)
-                {
-                    selected_deck = value;
-                }
-            }
-        }
-
         internal BotKittyMenu(IDesktopAPI api, List<DeckItem> decks)
         {
             this.api = api;
@@ -78,11 +58,14 @@ namespace ComboHelper.GUI
 
         private void selectedDeckCB_SelectedIndexChanged(object sender, EventArgs e)
         {
-            var item = selectedDeckCB.SelectedItem;
+            var item = selectedDeckCB.SelectedItem as DeckItem;
             if (item == null)
                 return;
 
-            SelectedDeck = (DeckItem) item;
+            try
+            {
+                ComboStore.SelectDeck(item);
+            } catch { }
         }
     }
 }

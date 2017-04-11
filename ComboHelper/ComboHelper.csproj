@@ -58,6 +58,7 @@
     <Compile Include="BotRunner.cs" />
     <Compile Include="CardJson.cs" />
     <Compile Include="CardKeeper.cs" />
+    <Compile Include="ComboStore.cs" />
     <Compile Include="GameKeeper.cs" />
     <Compile Include="GUI\BotKittyMenu.cs">
       <SubType>UserControl</SubType>

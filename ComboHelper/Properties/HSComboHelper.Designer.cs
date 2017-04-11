@@ -34,5 +34,17 @@ namespace ComboHelper.Properties {
                 this["decks"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string selected_deck {
+            get {
+                return ((string)(this["selected_deck"]));
+            }
+            set {
+                this["selected_deck"] = value;
+            }
+        }
     }
 }
